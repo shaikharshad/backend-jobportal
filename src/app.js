@@ -27,7 +27,7 @@ mongoose.connection.on("conneced",(conneced)=> {
 app.post('/api/users', (req, res) => {
   const { name, email } = req.body;
   // Save user to database
-  res.json({ message: 'User created successfully' });
+  res.json({ message: ' created successfully' });
 });
 
 app.listen(port, () => {
